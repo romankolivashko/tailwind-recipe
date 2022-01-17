@@ -1,0 +1,17 @@
+{
+  "name": "recipe-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./src/styles.css -o ./public/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
