@@ -4,7 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer {
+
   .card {
     @apply rounded bg-white border-gray-200 shadow-md overflow-hidden relative;
   }
@@ -12,4 +12,4 @@
   .badge {
     @apply absolute top-0 ml-2 p-2 mt-2 bg-gray-100 text-gray-200 text-xs uppercase font-bold rounded-full;
   }
-}
+
