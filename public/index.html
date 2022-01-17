@@ -7,12 +7,12 @@
 </head>
 <body class="text-gray-600 font-body">
 
-  <div>
-    <div>
+  <div class="grid md:grid-cols-3">
+    <div class="md:col-span-1">
       <nav>
         <div>
           <h1 class="font-bold uppercase p-4 border-b border-gray-100">
-            <a href="/">Food Ninja</a>
+            <a href="/">Awesome Meals</a>
           </h1>
         </div>
         <ul>
@@ -35,21 +35,21 @@
       </nav>
     </div>
   
-    <main class="px-16 py-6">
+    <main class="px-16 py-6 md:col-span-2">
       <div class="flex justify-center md:justify-end">
-        <a href="#" class="text-primary">Log in</a>
-        <a href="#" class="text-primary ml-2">Sign up</a>
+        <a href="#" class="btn border-gray md:border-2">Log in</a>
+        <a href="#" class="btn ml-2 border-gray md:border-2">Sign up</a>
       </div>
 
       <header>
         <h2 class="text-gray-700 text-6xl font-semibold">Recipes</h2>
-        <h3 class="text-2xl font-semibold">For Ninjas</h3>
+        <h3 class="text-2xl font-semibold">For Aspiring Chefs</h3>
       </header>
 
       <div>
         <h4 class="font-bold pb-2 mt-12 border-b border-gray-200">Latest Recipes</h4>
   
-        <div class="mt-8">
+        <div class="mt-8 grid md:grid-cols-3 gap-10">
           <!-- cards go here -->
           <div class="card"> 
             <img src="img/stew.jpg" alt="stew" class="h-32 sm:h-48 w-full object-cover">
@@ -91,7 +91,7 @@
       </div>
 
       <div class="mt-12 flex justify-center">
-        <div class="bg-secondary-100 text-secondary-200">Load more</div>
+        <div class="btn bg-gray-100 text-secondary-200">Load more</div>
       </div>    
     </main>
   </div>

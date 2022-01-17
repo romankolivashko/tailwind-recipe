@@ -13,3 +13,6 @@
     @apply absolute top-0 ml-2 p-2 mt-2 bg-gray-100 text-gray-200 text-xs uppercase font-bold rounded-full;
   }
 
+  .btn {
+    @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider;
+  }
