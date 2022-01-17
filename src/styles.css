@@ -10,7 +10,7 @@
   }
 
   .badge {
-    @apply absolute top-0 ml-2 p-2 mt-2 bg-gray-100 text-gray-200 text-xs uppercase font-bold rounded-full;
+    @apply absolute top-0 ml-2 p-2 mt-2 bg-gray-100 text-gray-500 text-xs uppercase font-bold rounded-full;
   }
 
   .btn {
