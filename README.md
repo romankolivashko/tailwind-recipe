@@ -71,7 +71,7 @@ This web page was built with Tailwind CSS. The main goal - explore the use of th
 
 
 ## How to access the app from the web <a id="web-access"></a>
-* _Follow the link [here](https://silly-tesla-b0faf4.netlify.app)_ 
+* _Follow the link [here](https://distracted-hopper-3f71d7.netlify.app/)_ 
 
 ## Known Bugs <a id="known-bugs"></a>
 
