@@ -8,33 +8,33 @@
 <body class="text-gray-600 font-body">
 
   <div class="grid md:grid-cols-3">
-    <div class="md:col-span-1">
-      <nav>
+    <div class="md:col-span-1 md:flex md:justify-end">
+      <nav class="text-right">
         <div>
           <h1 class="font-bold uppercase p-4 border-b border-gray-100">
-            <a href="/">Awesome Meals</a>
+            <a href="/" class="hover:text-gray-900">Awesome Meals</a>
           </h1>
         </div>
-        <ul>
-          <li class="text-gray-700 font-bold">
-            <a href="#">
-              <svg class="w-5" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <ul class="text-sm mt-6">
+          <li class="text-gray-700 font-bold py-1">
+            <a href="#" class="px-4 flex justify-start border-r-4 border-red-200">
+              <svg class="w-5 mr-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
               </svg>
               <span>Home</span>
             </a>
           </li>
-          <li>
-            <a href="#">
-              <svg class="w-5" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <li class="py-1">
+            <a href="#" class="px-4 flex justify-start border-r-4 border-white">
+              <svg class="w-5 mr-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               <span>About</span>
             </a>
           </li>
-          <li>
-            <a href="#">
-              <svg class="w-5" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <li class="py-1">
+            <a href="#" class="px-4 flex justify-start border-r-4 border-white">
+              <svg class="w-5 mr-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
               <span>Contact</span>
@@ -46,8 +46,8 @@
   
     <main class="px-16 py-6 md:col-span-2">
       <div class="flex justify-center md:justify-end">
-        <a href="#" class="btn border-gray md:border-2">Log in</a>
-        <a href="#" class="btn ml-2 border-gray md:border-2">Sign up</a>
+        <a href="#" class="btn border-gray md:border-2 hover:bg-gray-500 hover:text-white">Log in</a>
+        <a href="#" class="btn ml-2 border-gray md:border-2 hover:bg-gray-500 hover:text-white">Sign up</a>
       </div>
 
       <header>
@@ -60,7 +60,7 @@
   
         <div class="mt-8 grid md:grid-cols-3 gap-10">
           <!-- cards go here -->
-          <div class="card"> 
+          <div class="card hover:shadow-lg"> 
             <img src="img/stew.jpg" alt="stew" class="h-32 sm:h-48 w-full object-cover">
             <div class="m-4">
               <span class="font-bold">Beef Stew</span>
@@ -73,7 +73,7 @@
               <span>25 mins</span>
             </div>
           </div>
-          <div class="card"> 
+          <div class="card hover:shadow-lg"> 
             <img src="img/pasta.jpg" alt="noodles" class="h-32 sm:h-48 w-full object-cover">
             <div class="m-4">
               <span class="font-bold">Veg Noodles</span>
@@ -86,7 +86,7 @@
               <span>20 mins</span>
             </div>
           </div>
-          <div class="card"> 
+          <div class="card hover:shadow-lg"> 
             <img src="img/salmon.jpg" alt="curry" class="h-32 sm:h-48 w-full object-cover">
             <div class="m-4">
               <span class="font-bold">Chared Salmon</span>
@@ -109,7 +109,7 @@
       </div>
 
       <div class="mt-12 flex justify-center">
-        <div class="btn bg-gray-100 text-secondary-200">Load more</div>
+        <div class="btn bg-gray-100 text-secondary-200 hover:shadow-inner">Load more</div>
       </div>    
     </main>
   </div>
