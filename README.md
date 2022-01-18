@@ -41,7 +41,7 @@
 * [License](#license)
 ---
 ## Description <a id="description"></a>
-This web page was built with Tailwind CSS. The main goal - explore the use of the Tailwind utility classes, visual transition events and layout alignment.
+This web page was built with Tailwind CSS. The main goal - explore the use of the Tailwind utility classes, visual transition, responsiveness and layout alignment.
 
 
 ## Screenshots <a id="screenshots"></a>
