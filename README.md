@@ -58,7 +58,7 @@ This web page was built with Tailwind CSS. The main goal - explore the use of th
 
 1. Download and install Node.js from the [official website](https://nodejs.org/en/download/)
 2. Clone the repository: `$git clone https://github.com/romankolivashko/tailwind-recipe.git`
-3. Use command line/Bash to move to the project directory with `cd project-directory`
+3. Use command line/Bash to move to the project directory with `cd tailwind-recipe`
 4. Run `npm install` to get all dependencies. 
 5. Run `npm run start` to start up the project
 
